@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>OLIVER</title>
+	
+	
+	<link href="css/slide.css" rel="stylesheet">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/freshslider.min.css" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7730836/7899592/css/fonts.css" />
+
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.film_roll.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slide.js"></script>
+    <script src="js/freshslider.min.js"></script>
+	
+	
+  </head>
+  
+  <body class="search_page">
+	<div class="top_bar">
+		<div class="title"><a href="#"><img src="images/OLRE_logo_grey.png"></a></div>
+		
+		<div class="menu">
+			<div class="menu_item"><a href="#">BUY</a></div>
+			<div class="menu_item"><a href="#">SELL</a></div>
+			<div class="menu_item"><a href="#">FIND AN AGENT</a></div>
+			<div class="menu_item"><a href="#">COMPANY</a></div>
+			<div class="menu_item contact"><a href="#">CONTACT</a></div>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="filter_bar">
+		<div class="part1">
+			<i class="fa fa-search"></i>
+			<span>Incline Village, NV</span>
+		</div>
+		
+		<div class="part2">
+			<div class="filter_button hometype">
+				<div class="title">HOME TYPE<i class="fa fa-angle-down"></i></div>
+				<div class="extend">
+					<div><input type="checkbox" id="c_house"/><label for="c_house"><span></span>HOUSES</label></div>
+					<div><input type="checkbox" id="c_condo"/><label for="c_condo"><span></span>CONDO</label></div>
+					<div><input type="checkbox" id="c_townhomes"/><label for="c_townhomes"><span></span>TOWNHOMES</label></div>
+					<div><input type="checkbox" id="c_lots"/><label for="c_lots"><span></span>LOTS/LAND</label></div>
+				</div>
+			</div>
+			
+			<div class="filter_button price">
+				<div class="title">ANY PRICE<i class="fa fa-angle-down"></i></div>
+				<div class="extend">
+					<div class="border"></div>
+					<div style="padding-left:15px;padding-right:15px;">
+					<div class="slider_range">
+						<div id="price_ranged"></div>
+					</div>
+					<div class="clear"></div>
+					<div class="input_range">
+						<input id="start_price_range" type="text" value="$0">
+						<input id="end_price_range" type="text" value="$50,000,000">
+					</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="filter_button bedroom">
+				<div class="title">BEDROOMS<i class="fa fa-angle-down"></i></div>
+				
+				
+				<div class="extend">
+					<div>0+</div>
+					<div>1+</div>
+					<div>2+</div>
+					<div>3+</div>
+					<div>5+</div>
+					<div>6+</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="part3">
+			<span>HIDE MAP</span>
+		</div>
+	</div>
+	
+	<div class="clear"></div>
+	
+	<div class="section1">
+		<div class="col-sm-12 col-md-6 left">
+			<img src="images/map_img.png">
+		</div>
+		
+		<div class="col-sm-12 col-md-6 right">
+			<div class="properties">
+				<div class="header">
+					<span class="title">Properties for Sale</span>
+					
+					<div class="sort_order">
+						<div class="initial">
+							<span>DEFAULT ORDER</span>
+							<i class="fa fa-angle-down"></i>
+						</div>
+						<div class="extend">
+							<div class="main_title" style="margin-top:0px;">PRICE</div>
+							<div class="sub_title">Highest</div>
+							<div class="sub_title">Lowest</div>
+							
+							<div class="main_title">LISTING DATE</div>
+							<div class="sub_title">Newest</div>
+							<div class="sub_title">Oldest</div>
+							
+							<div class="main_title">SQFT</div>
+							<div class="sub_title">Largest</div>
+							<div class="sub_title">Smallest</div>
+							
+							<div class="main_title">OPEN HOUSE</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="body">
+					<div class="col-12 col-xs-6 col-sm-4 col-md-6">
+						<div class="property_list_item">
+							<div id="slide1" class="slide">
+								<div class="slide-wrapper" style="width:100% !important;height:100% !important;">
+									<ul class="clearfix">
+										<li><div><img src="images/carousel_1.jpg"></div></li>
+										<li><div><img src="images/carousel_2.jpg"></div></li>
+										<li><div><img src="images/carousel_3.jpg"></div></li>
+										<li><div><img src="images/carousel_4.jpg"></div></li>
+										<li><div><img src="images/carousel_5.jpg"></div></li>
+									</ul>
+								</div>
+								<a id="prev1" href="javascript:;" title="" class="prev"><img src="images/large_left.png" style="width:18px;height:30px;"></a>
+								<a id="next1" href="javascript:;" title="" class="next"><img src="images/large_right.png" style="width:18px;height:30px;"></a>
+							</div>
+							
+							<div class="property_detail">
+								<div class="title"><a href="#">950 Horse Ranch Road</a></div>
+								<div class="address">Incline Village, NV</div>
+								<div class="price">$4,550,000</div>
+								<div class="tags">4 BD | 4 BA | 4,407 SF</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-12 col-xs-6 col-sm-4 col-md-6">
+						<div class="property_list_item">
+							<div id="slide2" class="slide">
+								<div class="slide-wrapper" style="width:100% !important;height:100% !important;">
+									<ul class="clearfix">
+										<li><div><img src="images/carousel_1.jpg"></div></li>
+										<li><div><img src="images/carousel_2.jpg"></div></li>
+										<li><div><img src="images/carousel_3.jpg"></div></li>
+										<li><div><img src="images/carousel_4.jpg"></div></li>
+										<li><div><img src="images/carousel_5.jpg"></div></li>
+									</ul>
+								</div>
+								<a id="prev2" href="javascript:;" title="" class="prev"><img src="images/large_left.png" style="width:18px;height:30px;"></a>
+								<a id="next2" href="javascript:;" title="" class="next"><img src="images/large_right.png" style="width:18px;height:30px;"></a>
+							</div>
+							
+							<div class="property_detail">
+								<div class="title"><a href="#">950 Horse Ranch Road</a></div>
+								<div class="address">Incline Village, NV</div>
+								<div class="price">$4,550,000</div>
+								<div class="tags">4 BD | 4 BA | 4,407 SF</div>
+								<div class="mark">OPEN HOUSE</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-12 col-xs-6 col-sm-4 col-md-6">
+						<div class="property_list_item">
+							<div id="slide3" class="slide">
+								<div class="slide-wrapper" style="width:100% !important;height:100% !important;">
+									<ul class="clearfix">
+										<li><div><img src="images/carousel_1.jpg"></div></li>
+										<li><div><img src="images/carousel_2.jpg"></div></li>
+										<li><div><img src="images/carousel_3.jpg"></div></li>
+										<li><div><img src="images/carousel_4.jpg"></div></li>
+										<li><div><img src="images/carousel_5.jpg"></div></li>
+									</ul>
+								</div>
+								<a id="prev3" href="javascript:;" title="" class="prev"><img src="images/large_left.png" style="width:18px;height:30px;"></a>
+								<a id="next3" href="javascript:;" title="" class="next"><img src="images/large_right.png" style="width:18px;height:30px;"></a>
+							</div>
+							
+							<div class="property_detail">
+								<div class="title"><a href="#">950 Horse Ranch Road</a></div>
+								<div class="address">Incline Village, NV</div>
+								<div class="price">$4,550,000</div>
+								<div class="tags">4 BD | 4 BA | 4,407 SF</div>
+							</div>
+						</div>
+					</div>
+					
+					
+					<div class="col-12 col-xs-6 col-sm-4 col-md-6">
+						<div class="property_list_item">
+							<div id="slide4" class="slide">
+								<div class="slide-wrapper" style="width:100% !important;height:100% !important;">
+									<ul class="clearfix">
+										<li><div><img src="images/carousel_1.jpg"></div></li>
+										<li><div><img src="images/carousel_2.jpg"></div></li>
+										<li><div><img src="images/carousel_3.jpg"></div></li>
+										<li><div><img src="images/carousel_4.jpg"></div></li>
+										<li><div><img src="images/carousel_5.jpg"></div></li>
+									</ul>
+								</div>
+								<a id="prev4" href="javascript:;" title="" class="prev"><img src="images/large_left.png" style="width:18px;height:30px;"></a>
+								<a id="next4" href="javascript:;" title="" class="next"><img src="images/large_right.png" style="width:18px;height:30px;"></a>
+							</div>
+							
+							<div class="property_detail">
+								<div class="title"><a href="#">950 Horse Ranch Road</a></div>
+								<div class="address">Incline Village, NV</div>
+								<div class="price">$4,550,000</div>
+								<div class="tags">4 BD | 4 BA | 4,407 SF</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+
+	
+	<div class="clear"></div>
+	
+	<div class="bottom_bar">
+		<div class="container">
+			<div class="title">We're here. Call 530-581-5300 or Chat Now Live Chat</div>
+			
+			<div class="body">
+				<div class="col-sm-12 col-md-8" style="margin-top:20px;">
+					<div class="col-xs-6 col-sm-4 col-md-5 first">
+						<div class="sub_title">FIND A HOME</div>
+						<div class="description"><a href="#">Lakefront Real Estate</a></div>
+						<div class="description"><a href="#">Tahoe Real Estate</a></div>
+						<div class="description"><a href="#">Truckee Real Estate</a></div>
+						<div class="description"><a href="#">Reno Real Estate</a></div>
+						<div class="description"><a href="#">Luxury Collection</a></div>
+						<div class="description"><a href="#">Exclusive Listings</a></div>
+						<div class="description"><a href="#">Open House Schedule</a></div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-4 col-md-5">
+						<div class="sub_title">SELL YOUR HOME</div>
+						<div class="description"><a href="#">Why List With Oliver</a></div>
+						<div class="description"><a href="#">Find an Agent</a></div>
+						<div class="description"><a href="#">Recent Sales</a></div>
+						<div class="description"><a href="#">Market Reports</a></div>
+					</div>
+					
+					<div class="col-xs-6 col-sm-4 col-md-2 company">
+						<div class="sub_title">COMPANY</div>
+						<div class="description"><a href="#">Who We Are</a></div>
+						<div class="description"><a href="#">Christie's</a></div>
+						<div class="description"><a href="#">Leadership</a></div>
+						<div class="description"><a href="#">Agents</a></div>
+					</div>
+					
+					<div class="clear"></div>
+					
+					<div class="col-xs-12 col-sm-8 col-md-9" style="margin-top:20px;">@ 2017 OLIVER LUXURY REAL ESTATE | TERMS | PRIVACY</div>
+					
+					<div class="col-xs-12 col-sm-4 col-md-2">
+						<div class="iif">
+							<a href=""><i class="fab fa-instagram"></i></a>
+							<a href=""><i class="fab fa-linkedin"></i></a>
+							<a href=""><i class="fab fa-facebook"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="col-sm-12 col-md-4 last" style="margin-top:20px;">
+					<div class="line"><img src="images/footer_img1.png"></div>
+					<div class="line middle">RENO-TAHOE'S EXCLUSIVE CHRISTIE'S AFFILATE.</div>
+					<div class="line last"><img src="images/footer_img2.png"></div>
+				</div>
+				
+				
+				
+				
+			</div>
+			
+			<div id="up_arrow" class="up_arrow">
+				<img src="images/backTop.png">
+			</div>
+		</div>
+	</div>
+	
+
+<div class="modal fade modal-post" id="ind_post_modal" role="article">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body page3" style="display:inline-block;width:100%;">
+				<div class="header">
+					<div class="title">VIEW FULL LISTING</div>
+					<div class="close_button" id="ind_post_modal_close_btn">&#10006;<span>CLOSE</span></div>
+				</div>
+				<div class="section1 section_top">
+					<div class="col-lg-8 left" style="padding:0px;">
+						<div class="slide" id="fade">
+							<div class="slide-wrapper">
+								<ul class="clearfix">
+									<li><div><img src="images/carousel_1.jpg"></div></li>
+									<li><div><img src="images/carousel_2.jpg"></div></li>
+									<li><div><img src="images/carousel_3.jpg"></div></li>
+									<li><div><img src="images/carousel_4.jpg"></div></li>
+									<li><div><img src="images/carousel_5.jpg"></div></li>
+									
+									
+								</ul>
+							</div>
+							<a id="prev3" href="javascript:;" title="" class="prev"><img src="images/large_left.png"></a>
+							<a id="next3" href="javascript:;" title="" class="next"><img src="images/large_right.png"></a>
+							<div class="page" id="page-fade"></div>
+						</div>
+					</div>
+					<div class="col-lg-4 right" style="padding:0px;height:">
+						<div class="part11" style="height:100%;">
+							<div class="profile">
+								<img src="images/photo1.jpg">
+								<div class="title" style="font-size:17px;">First Last<br><span style="font-size:13px;">email@oliverlux.com</span><br><span style="font-size:13px;">333.333.333</span></div>
+							</div>
+							<div class="clear"></div>
+							
+							<input class="inputfiled" type="text" placeholder="Full Name" style="margin-top:15px;">
+							
+							<input class="inputfiled" type="text" placeholder="Email" style="margin-top:15px;">
+							
+							<input class="inputfiled" type="text" placeholder="Phone" style="margin-top:15px;">
+							
+							<textarea class="textfield" style="margin-top:15px;" placeholder="I would like more information about 229 Faraway Road."></textarea>
+							
+							<div class="button" style="margin-top:15px;">Contact Agent</div>
+							
+						</div>
+					</div>
+					
+				</div>
+				
+				<div class="clear"></div>
+				<div class="section1 section_body" style="margin-top:30px;">
+					<div class="part2">
+						229 Faraway Road
+					</div>
+					
+					<div class="part3">
+						Incline Village, NV, 81615
+					</div>
+					
+					<div class="part4">
+						$1,995,000
+					</div>
+					
+					<div class="part5">
+						<b>4</b> Beds | <b>4</b> Baths | <b>2,731</b> Sqft. | <b>1.2</b> Acre Lot
+					</div>
+					
+					<div class="part6">
+						"Tahoe On The Green" You will be pleasantly surprised by the recent remodel of this gorgeous home. The quality of the materials, and the design work come together to create one of the best houses for entertaining in Incline Village. The very private setting is spectacular, with a beautiful lawn that flows right into the golf course, a rushing stream, and peeks of the lake beyond the golf course. In the winter you can sit in the hot tub and watch the skiers on Diamond Peak Ski Resort. Fortunately, the kitchen overlooks this beautiful setting and the rest of the house in centered around the kitchen. The spacious living room, with it's stone fireplace and hardwood floors is just off the kitchen.
+					</div>
+					
+					<div class="part7">
+						<div class="button">WATCH VIDEO TOUR</div>
+						<div class="button second">LAUNCH VIRTUAL TOUR</div>
+					</div>
+					
+					<div class="part8">
+						<div class="col-xs-3 sub_title">
+							KEY DETAILS
+						</div>
+						
+						<div class="col-xs-4">
+							<div class="sub_info">Sqft:2,731</div>
+							<div class="sub_info">Bedrooms:4</div>
+							<div class="sub_info">Bathroom:4</div>
+							<div class="sub_info">Lot:1.03 Acres</div>
+							<div class="sub_info">Single-family Home</div>
+							<div class="sub_info">Built:1993</div>
+							<div class="sub_info">Stories:3</div>
+							<div class="sub_info">Garage:2 Car</div>
+							<div class="sub_info">Price/sqft: $617</div>
+						</div>
+						
+						<div class="col-xs-5">
+							<div class="sub_info">Days of Market:32</div>
+							<div class="sub_info">Last Sold Date:Oct 2006</div>
+							<div class="sub_info">Estimated Taxes: $2,459</div>
+							<div class="sub_info">MLS ID:192840</div>
+							<div class="sub_info">Elementarty School:Gomm</div>
+							<div class="sub_info">Middle School:Swope</div>
+							<div class="sub_info">High School: Reno</div>
+						</div>
+					</div>
+					
+					<div class="clear"></div>
+					
+					<div class="part9">
+						<div class="accordion-title"><span>INTERIOR</span><i class="fa fa-chevron-down"></i></div>
+						<div class="accordion-inner">
+							<p>
+								This is the number of miles you are allowed to drive over the term of the lease. Often this is stated as the number of miles per year you can drive. Most leasing companies allow 12,000 miles a year. On a three-year lease, that means you can drive a total of 36,000 miles. If the allowable miles are exceeded, you typically must pay between 10 and 25 cents per mile.
+							</p>
+						</div>
+					</div>
+					
+					<div class="part10">
+						<div class="accordion-title"><span>EXTERIOR</span><i class="fa fa-chevron-down"></i></div>
+						<div class="accordion-inner">
+							<p>
+								This is the number of miles you are allowed to drive over the term of the lease. Often this is stated as the number of miles per year you can drive. Most leasing companies allow 12,000 miles a year. On a three-year lease, that means you can drive a total of 36,000 miles. If the allowable miles are exceeded, you typically must pay between 10 and 25 cents per mile.
+							</p>
+						</div>
+					</div>
+					
+					<div class="part12">
+						<div class="accordion-title"><span>PRICE HISTORY</span><i class="fa fa-chevron-down"></i></div>
+						<div class="accordion-inner">
+							<p>
+								This is the number of miles you are allowed to drive over the term of the lease. Often this is stated as the number of miles per year you can drive. Most leasing companies allow 12,000 miles a year. On a three-year lease, that means you can drive a total of 36,000 miles. If the allowable miles are exceeded, you typically must pay between 10 and 25 cents per mile.
+							</p>
+						</div>
+					</div>
+					
+					<div class="part13">
+						<div class="accordion-title"><span>SCHOOLS</span><i class="fa fa-chevron-down"></i></div>
+						<div class="accordion-inner">
+							<p>
+								This is the number of miles you are allowed to drive over the term of the lease. Often this is stated as the number of miles per year you can drive. Most leasing companies allow 12,000 miles a year. On a three-year lease, that means you can drive a total of 36,000 miles. If the allowable miles are exceeded, you typically must pay between 10 and 25 cents per mile.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<script>
+
+	var price_range = null;
+	
+	function covertRange(value){
+		if ( value < 100 ){
+			return value * 10000;
+		}
+		else if ( value < 190 ) {
+			return 100 * 10000 + (value-100) * 100000;
+		}
+		else if ( value < 200 ) {
+			return 100 * 10000 + 90 * 100000 + (value-190) * 500000;
+		}
+		else{
+			return 10000 * 100 + 90 * 100000 + 10 * 500000 + (value - 200) * 5000000;
+		}
+		
+	}
+	function getRange(value){
+		if ( value < 10000 * 100 ){
+			return value/10000;
+		}
+		else if ( value < (10000 * 100 + 100000 * 90)  ){
+			value = value - 10000 * 100;
+			return 100 + value/100000;
+		}
+		else if ( value < (10000 * 100 + 100000 * 90 + 500000 * 10) ){
+			value = value - 10000 * 100 - 100000 * 90;
+			return 190 + value/500000;
+		}
+		else{
+			value = value - 10000 * 100 - 100000 * 90 - 500000 * 10;
+			return 200 + value/5000000;
+		}
+	}
+	
+	$(document).ready(function(){
+		setTimeout(showInd_Dlg, 200);
+		
+		for(var i=1;i<=4;i++){
+			$("#slide" + i).slide({
+				next: '#next' + i,
+				prev: '#prev' + i
+			});	
+		}
+		
+		$('.filter_button.price').hover(function(){
+			if ( price_range )
+				return;
+				
+			price_range = $("#price_ranged").freshslider({
+		        range:true,
+		        step:1,
+		        min:0,
+		        max:207,
+		        text:false,
+		        onchange:function(low, high){
+					var low2, high2;
+					low2 = covertRange(low);
+					high2 = covertRange(high);
+					
+		        	$('#start_price_range').val('$' + low2.toLocaleString() );
+		        	$('#end_price_range').val('$' + high2.toLocaleString() );
+		            console.log(low, high);
+		        }
+		    });	
+		});
+		
+		$('#up_arrow').click(function(){
+			$(window).scrollTop(0);
+		});
+		
+		$('#ind_post_modal_close_btn').click(function(){
+			$('#ind_post_modal').modal('toggle');
+		});
+		
+		$('.accordion-title').click(function(){
+			
+			var currentone = $(this);
+			$( ".accordion-title" ).each(function() {
+				if ( currentone.is($(this)) == false ){
+					$(this).next().css('display', 'none');
+					$(this).removeClass('active');
+				}
+			  	
+			});
+			
+			var next = currentone.next();
+			if ( next.css('display') == "none" ){
+				next.css('display', 'block');
+				$(this).addClass('active');
+			}
+			else if ( next.css('display') == "block" ){
+				next.css('display', 'none');
+				$(this).removeClass('active');
+			}
+				
+		});
+	});
+	
+	
+  
+	function showInd_Dlg(){
+		$('#ind_post_modal').modal();
+		$("#fade").slide({
+			next: '#next3',
+			prev: '#prev3'
+		});
+	}
+  
+  
+</script>
+</body>
+  
+</html>

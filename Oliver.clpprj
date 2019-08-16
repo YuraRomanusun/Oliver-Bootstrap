@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\Oliver.clpprj">
+	<settings><PM_URL><![CDATA[http://localhost/Stom/]]></PM_URL><PM_HOME_URL><![CDATA[http://localhost/Stom/]]></PM_HOME_URL><PM_LIBS><![CDATA[]]></PM_LIBS><PM_FTP_CONNECTION><![CDATA[]]></PM_FTP_CONNECTION><PM_FTP_DIR><![CDATA[]]></PM_FTP_DIR><PM_FTP_UPLOAD_ON_SAVE><![CDATA[INT:0]]></PM_FTP_UPLOAD_ON_SAVE></settings><removed value=";"/><added value=""/><lastopfiles>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\style.css"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\1.html"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\bootstrap.min.css"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\freshslider.min.css"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\2.html"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\3.html"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\4.html"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\slide.css"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\common.css"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\5.html"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\6.html"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\jquery.film_roll.js"/>
+	</lastopfiles>
+	<errors version="5.11">
+		<errfile name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\style.css">
+			<error val="1;81;18;81;2502;1;"/>
+			<error val="4;1038;22;1038;2502;1;"/>
+			<error val="1;1510;18;1510;2502;1;"/>
+		</errfile>
+		<errfile name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\freshslider.min.css">
+			<error val="140;1;164;1;2502;1;"/>
+			<error val="88;1;115;1;2502;1;"/>
+		</errfile>
+		<errfile name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\common.css">
+			<error val="1;10;19;10;2502;1;"/>
+		</errfile>
+		<errfile name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\bootstrap.min.css">
+			<error val="137;4;163;4;2502;1;"/>
+			<error val="107;4;137;4;2502;1;"/>
+			<error val="779;4;793;4;2501;1;"/>
+			<error val="3653;4;3687;4;2502;1;"/>
+			<error val="3618;4;3653;4;2502;1;"/>
+			<error val="15315;4;15357;4;2502;1;"/>
+			<error val="33929;4;33973;4;2502;1;"/>
+			<error val="45321;4;45351;4;2502;1;"/>
+			<error val="67731;4;67764;4;2502;1;"/>
+			<error val="84300;4;84304;4;2502;1;"/>
+			<error val="85725;4;85778;4;2502;1;"/>
+			<error val="106031;4;106064;4;2502;1;"/>
+		</errfile>
+		<errfile name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\3.html">
+			<error val="35;138;40;138;2002;1;"/>
+			<error val="35;140;40;140;2002;1;"/>
+			<error val="35;142;40;142;2002;1;"/>
+		</errfile>
+	</errors>
+	<cakedata>
+	</cakedata>
+	<dplmenupath>
+	</dplmenupath><laravael>
+	</laravael><smartyassings>
+	</smartyassings><twigtemplate>
+	</twigtemplate><yiidata>
+	</yiidata>
+	<todoblock>
+	</todoblock>
+	<dbgurls>
+	</dbgurls>
+	<filescache>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\slide.js" crc="1491660670"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\jquery.min.js" crc="1518332379"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\jquery.film_roll.min.js" crc="1456845598"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\jquery.film_roll.js" crc="1456845598"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\jquery-ui.js" crc="1516373268"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\freshslider.min.js" crc="1411726468"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\js\bootstrap.min.js" crc="1506159662"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\style.css" crc="1518523251"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\slide.css" crc="1491660670"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\jquery-ui.css" crc="1516373270"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\freshslider.min.css" crc="1411726468"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\common.css" crc="1518439973"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\css\bootstrap.min.css" crc="1506159660"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\6.html" crc="1518490817"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\5.html" crc="1518490804"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\4.html" crc="1518490769"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\3.html" crc="1518489476"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\2.html" crc="1518485898"/>
+		<file name="F:\My Jobs\Sean_Upwork\project\01_Looking for an experienced htmlcss guru to build 6 pages using bootstrap (Chris)\oliver\1.html" crc="1518523152"/>
+	</filescache>
+</project>
